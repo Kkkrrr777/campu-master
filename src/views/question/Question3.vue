@@ -37,7 +37,7 @@
         </el-col>
         <el-col :span="12">
           <div class="grid-content bg-purple-light">
-            <h3>题号:</h3>
+            <h3>Question number:</h3>
             <div class="tihao">
               <!-- <span class="ti active">{{index + 1}}</span> -->
               <div v-for="(test,index) in tests" :key="index">
@@ -51,7 +51,7 @@
             </div>
           </div>
           <div>
-            <el-button @click="submitCount" type="primary">提交考卷</el-button>
+            <el-button @click="submitCount" type="primary">Submission</el-button>
           </div>
         </el-col>
       </el-row>
@@ -129,7 +129,7 @@ export default {
   },
   methods: {
     submitCount() {
-      console.log("提交试卷");
+      console.log("Submission");
       // 是否答完
       let isComplete = true;
       this.tests.forEach((val,i) =>{
@@ -153,12 +153,12 @@ export default {
             username: sessionStorage.getItem("user")
           }).then(response => {
           score = response.data.data
-          alert('本次分数为:'+score);
+          alert('The points earned this time are:'+score);
         })
-        alert('交卷成功!');
+        alert('Submit successfully!');
 
       }else{
-        alert('未打完,请继续答卷!');
+        alert('Not finished, please continue to answer!');
       }
     }
   }

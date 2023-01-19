@@ -3,7 +3,7 @@
 		<div class="top">
 			<div class="help_title">
 				<h1 class="help_center">HELP CENTER</h1>
-				<h1 class="help">问题中心</h1>
+				<h1 class="help">Help Center</h1>
 			</div>
 		</div>
 		<div class="help_main">

@@ -3,7 +3,7 @@
     <div class="top">
       <h1>{{msg}}</h1>
 <!--      <a href="../static/conversation.html">跳转按钮1</a>-->
-      <button @click="jumpHtml">点击打开聊天机器人</button>
+      <button @click="jumpHtml">Click to open chatbot</button>
     </div>
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
   name: 'HelloWorld',
   data(){
     return {
-      msg :'欢迎与机器人小皮聊天!你可以问她任何问题'
+      msg :'Welcome to chat with the robot P! You can ask any questions'
     }
   },
   methods:{
