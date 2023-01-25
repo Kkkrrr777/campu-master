@@ -376,7 +376,7 @@ export default {
         this.$store.commit("decrementT");
       }, 10);
       console.log(sc);
-      this.$confirm("Whether to purchase this product?", "Reminder", {
+      this.$confirm("Whether to add it to your cart?", "Reminder", {
         confirmButtonText: "Confirm",
         cancelButtonText: "Cancel",
         type: "warning"

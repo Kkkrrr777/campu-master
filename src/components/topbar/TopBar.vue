@@ -19,7 +19,7 @@
             <span @click="xxx">Release</span>
           </router-link>
           <router-link class="px16 pointer" to="/car" tag="li" replace>
-            <span @click="xx">Purchase</span>
+            <span @click="xx">Cart</span>
           </router-link>
           <!--          <router-link class="px16 pointer" style="cursor:help" to='/help' tag='li' replace><span>帮助</span></router-link>-->
           <router-link
